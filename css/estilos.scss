@@ -2,7 +2,7 @@ $cor-teste: #F24472;
 $cor-test: #fff;
 $radius: 0.5em;
 
-@mixin borda-arrendondada {
+@mixin borda-arrendondada ($radius: 0.3){
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   border-radius: $radius;
@@ -110,8 +110,8 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  @include borda-arrendondada();
-@include sombra-button ( );
+  @include borda-arrendondada(50px);
+  @include sombra-button ( );
   font-weight: bold;
 }
 
