@@ -6,6 +6,11 @@
 form {
   margin: 0 auto;
   width: 50%;
+
+  @media (#{$mediaq}){
+    width: auto;
+  }
+
 }
 
 .contato input,
