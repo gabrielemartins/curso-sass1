@@ -24,12 +24,12 @@
   
   .destaque button {
     margin-top: 1em;
-    background: #66DDDD;
+    background: $cor-teste;
     border: 0;
     padding: .6em;
     font-size: 1.2em;
-    @include borda-arrendondada(50px);
-    @include sombra-button ( );
+    @include borda-arredondada(50px);
+    @extend %sombra-button;
     font-weight: bold;
   }
   

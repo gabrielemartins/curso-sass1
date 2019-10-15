@@ -13,18 +13,18 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  @include borda-arrendondada();
+  @include borda-arredondada();
   border: 2px solid #ccc;
 }
 
 .contato button {
   margin: 0 auto;
-  background: #66DDDD;
+  background: $cor-teste;
   border: 0;
   color: $cor-test;
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include borda-arrendondada();
-@include sombra-button ( );
+  @include borda-arredondada();
+  @extend %sombra-button;
 }
