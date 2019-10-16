@@ -8,10 +8,10 @@
   
   .plano {
     background: white;
-    width: 18em;
+    width: 18 * $fonte-teste;
     display: inline-block;
-    margin: 1em 0 0 1.4em;
-    padding-bottom: 2em;
+    margin: 1 * $fonte-teste 0 0 1.4 * $fonte-teste;
+    padding-bottom: 2 * $fonte-teste;
   }
   
   .plano:hover {
@@ -20,29 +20,29 @@
   
   .plano h3 {
     color: $cor-test;
-    font-size: 1.8em;
+    font-size: 1.8 * $fonte-teste;
     background: $cor-teste;
     text-align: center;
-    height: 2em;
-    padding-top: .6em;
+    height: 2 * $fonte-teste;
+    padding-top: .6 * $fonte-teste;
     margin-top: 0;
   }
   
   .plano div {
     text-align: center;
     color: $cor-teste;
-    font-size: 2.75em;
+    font-size: 2.75 * $fonte-teste;
   }
   
   .itens-plano {
-    padding-left: 1.2em;
+    padding-left: 1.2 * $fonte-teste;
   
     li {
-      font-size: 1em;
+      font-size: 1 * $fonte-teste;
       list-style: none;
       border-bottom: 1px solid #acacac;
-      padding: .5em;
-      width: 14.8em;
+      padding: .5 * $fonte-teste;
+      width: 14.8 * $fonte-teste;
   
       &:last-child {
         border: 0;
@@ -61,10 +61,10 @@
     color: $cor-test;
     width: 210px;
     height: 38px;
-    font-size: 1.2em;
+    font-size: 1.2 * $fonte-teste;
     @include borda-arredondada();
     @extend %sombra-button;
-    margin-left: 2em;
+    margin-left: 2 * $fonte-teste;
   }
   
   .icone-check, .icone-x {

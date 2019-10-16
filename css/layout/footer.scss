@@ -27,8 +27,8 @@ footer {
   }
   
   footer .container {
-    padding-top: 3 * $fonte-teste;
-    height: 6.5 * $fonte-teste;
+    padding-top: altera-tamanho (3);
+    height: altera-tamanho (6.5);
     position: relative;
   }
   
@@ -43,11 +43,11 @@ footer {
   
   .menu-rodape ul li {
     display: inline-block;
-    margin-left: 2em;
+    margin-left: altera-tamanho (2);
   }
   
   .menu-rodape {
-    top: 1em;
+    top:  altera-tamanho (1);
     right: 0;
   }
   
@@ -75,7 +75,7 @@ footer {
     width: 55px;
     height: 55px;
     @extend %image-replacement;
-    margin-left: 1em;
+    margin-left:  altera-tamanho (1);
   }
   
   .social a {
