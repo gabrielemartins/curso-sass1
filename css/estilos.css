@@ -378,14 +378,14 @@ body {
 
 .titulo-secao {
   text-decoration: underline;
-  font-size: 2em;
+  font-size: altera-tamanho 2;
   text-align: center; }
 
 .sobre,
 .planos,
 .blog,
 .contato {
-  padding: 3em 0 6em 0; }
+  padding: altera-tamanho 3 0 altera-tamanho 0.6 0; }
 
 h2 {
   margin-top: 0; }
@@ -404,7 +404,7 @@ header {
         margin: 0 auto; }
         header h1 img {
           max-width: 100%;
-          margin: .5em auto;
+          margin: altera-tamanho 0.5 auto;
           display: block; } }
 
 header .container {
@@ -416,14 +416,14 @@ header .container {
 .menu-principal {
   position: absolute;
   right: 0;
-  top: -.5em;
-  font-size: 1.2em;
+  top: altera-tamanho -0.5;
+  font-size: 19.2px;
   font-weight: lighter; }
   .menu-principal ul {
     padding-left: 0; }
   .menu-principal li {
     display: inline-block;
-    width: 5em; }
+    width: 80px; }
   .menu-principal a {
     color: white;
     text-decoration: none; }
@@ -436,7 +436,7 @@ header .container {
       text-align: center;
       width: auto; }
       .menu-principal li {
-        margin: .4em;
+        margin: 6.4px;
         width: auto; } }
 
 .destaque {
@@ -445,22 +445,22 @@ header .container {
   background-size: cover;
   color: white;
   height: 330px;
-  padding-top: 10em; }
+  padding-top: altera-tamanho 10; }
   .destaque p {
-    width: 30em; }
+    width: altera-tamanho 30; }
     .destaque p:first-child {
-      width: 30em;
-      font-size: 1.3em;
+      width: altera-tamanho 30;
+      font-size: 20.8px;
       line-height: 1.1; }
       .destaque p:first-child:first-line {
-        font-size: 2.2em;
+        font-size: 35.2px;
         font-weight: bold; }
   .destaque button {
-    margin-top: 1em;
+    margin-top: altera-tamanho 1;
     background: #542da8;
     border: 0;
-    padding: .6em;
-    font-size: 1.2em;
+    padding: altera-tamanho 0.6;
+    font-size: altera-tamanho 1.2;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
@@ -483,10 +483,10 @@ header .container {
   margin: 0; }
 
 .sobre p {
-  font: .9em/1.8 sans-serif; }
+  font: 8px sans-serif; }
 
 .sobre p:first-child {
-  margin-bottom: 3em; }
+  margin-bottom: 48px; }
 
 .plataformas {
   padding: 0; }
@@ -496,7 +496,7 @@ header .container {
   width: 50px;
   height: 60px;
   background-position: center;
-  margin: 1em 1.5em 0 0; }
+  margin: 16px 24px 0 0; }
 
 .plataformas li:nth-child(1) {
   background-image: url(../imagens/logo-apple.png); }
@@ -518,36 +518,36 @@ header .container {
 
 .plano {
   background: white;
-  width: 18em;
+  width: 288px;
   display: inline-block;
-  margin: 1em 0 0 1.4em;
-  padding-bottom: 2em; }
+  margin: 16px 0 0 22.4px;
+  padding-bottom: 32px; }
 
 .plano:hover {
   background: #dedede; }
 
 .plano h3 {
   color: #e6e6e6;
-  font-size: 1.8em;
+  font-size: 28.8px;
   background: #542da8;
   text-align: center;
-  height: 2em;
-  padding-top: .6em;
+  height: 32px;
+  padding-top: 9.6px;
   margin-top: 0; }
 
 .plano div {
   text-align: center;
   color: #542da8;
-  font-size: 2.75em; }
+  font-size: 44px; }
 
 .itens-plano {
-  padding-left: 1.2em; }
+  padding-left: 19.2px; }
   .itens-plano li {
-    font-size: 1em;
+    font-size: 16px;
     list-style: none;
     border-bottom: 1px solid #acacac;
-    padding: .5em;
-    width: 14.8em; }
+    padding: 8px;
+    width: 236.8px; }
     .itens-plano li:last-child {
       border: 0; }
   .itens-plano span {
@@ -559,11 +559,11 @@ header .container {
   color: #e6e6e6;
   width: 210px;
   height: 38px;
-  font-size: 1.2em;
+  font-size: 19.2px;
   -webkit-border-radius: 0.3;
   -moz-border-radius: 0.3;
   border-radius: 0.3;
-  margin-left: 2em; }
+  margin-left: 32px; }
 
 .icone-check, .icone-x {
   background: url(../imagens/sprite.png) no-repeat;
@@ -604,7 +604,7 @@ header .container {
       width: auto; } }
 
 .post-destaque {
-  margin-right: 2em; }
+  margin-right: altera-tamanho 2; }
   .post-destaque img {
     width: 100%; }
 
@@ -612,8 +612,8 @@ header .container {
   text-decoration: none;
   color: black;
   background: url(../imagens/icone-relogio.png) left center no-repeat;
-  padding-left: 2.5em;
-  height: 1.7em;
+  padding-left: altera-tamanho 2.5;
+  height: altera-tamanho 1.7;
   display: block; }
   .posts-antigos a:hover {
     text-decoration: underline; }
@@ -632,7 +632,7 @@ form {
 .contato input,
 textarea {
   width: 100%;
-  margin-bottom: .8em;
+  margin-bottom: altera-tamanho 8;
   padding: 4px 8px;
   -webkit-border-radius: 0.3;
   -moz-border-radius: 0.3;
@@ -646,7 +646,7 @@ textarea {
   color: #e6e6e6;
   width: 210px;
   height: 38px;
-  font-size: 1.2em;
+  font-size: altera-tamanho 1.2;
   -webkit-border-radius: 0.3;
   -moz-border-radius: 0.3;
   border-radius: 0.3; }
@@ -677,8 +677,8 @@ footer::before {
   z-index: -1; }
 
 footer .container {
-  padding-top: 3em;
-  height: 6.5em;
+  padding-top: altera-tamanho 3;
+  height: altera-tamanho 6.5;
   position: relative; }
 
 footer .container img {
@@ -690,10 +690,10 @@ footer .container img {
 
 .menu-rodape ul li {
   display: inline-block;
-  margin-left: 2em; }
+  margin-left: altera-tamanho 2; }
 
 .menu-rodape {
-  top: 1em;
+  top: altera-tamanho 1;
   right: 0; }
 
 .social {
@@ -715,7 +715,7 @@ footer a {
   display: block;
   width: 55px;
   height: 55px;
-  margin-left: 1em; }
+  margin-left: altera-tamanho 1; }
 
 .social a {
   background-position: top;

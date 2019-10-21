@@ -15,7 +15,7 @@ header {
 
         img {
           max-width: 100%;
-          margin: .5em auto;
+          margin: altera-tamanho (.5) auto;
           display: block;
         }
       }
@@ -34,8 +34,8 @@ header {
   .menu-principal {
     position: absolute;
     right: 0;
-    top: -.5em;
-    font-size: 1.2em;
+    top: altera-tamanho (-.5);
+    font-size: 1.2 * $fonte-teste;
     font-weight: lighter;
   
     ul {
@@ -44,7 +44,7 @@ header {
   
     li {
       display: inline-block;
-      width: 5em;
+      width: 5 * $fonte-teste;
     }
   
     a {
@@ -63,7 +63,7 @@ header {
       width: auto;
       
       li {
-        margin: .4em;
+        margin: .4 * $fonte-teste;
         width: auto;
       }
     }

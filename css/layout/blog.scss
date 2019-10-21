@@ -31,7 +31,7 @@
   }
   
   .post-destaque {
-    margin-right: 2em;
+    margin-right: altera-tamanho (2);
 
     img {
       width: 100%;
@@ -42,8 +42,8 @@
     text-decoration: none;
     color: black;
     background: url(../imagens/icone-relogio.png) left center no-repeat;
-    padding-left: 2.5em;
-    height: 1.7em;
+    padding-left:altera-tamanho (2.5);
+    height: altera-tamanho (1.7);
     display: block;
 
     &:hover {

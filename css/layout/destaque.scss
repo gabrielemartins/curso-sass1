@@ -4,28 +4,28 @@
   background-size: cover;
   color: white;
   height: 330px;
-  padding-top: 10em;
+  padding-top: altera-tamanho (10);
 
   p {
-    width: 30em;
+    width: altera-tamanho (30);
 
     &:first-child {
-      width: 30em;
-      font-size: 1.3em;
+      width: altera-tamanho (30);
+      font-size: 1.3 * $fonte-teste;
       line-height: 1.1;
 
       &:first-line {
-        font-size: 2.2em;
+        font-size: 2.2 * $fonte-teste;
         font-weight: bold;
       }
     }
   }
   button {
-    margin-top: 1em;
+    margin-top: altera-tamanho (1);
     background: $cor-teste;
     border: 0;
-    padding: .6em;
-    font-size: 1.2em;
+    padding: altera-tamanho (.6);
+    font-size:  altera-tamanho (1.2);
     @include borda-arredondada(50px);
     @extend %sombra-button;
     font-weight: bold;

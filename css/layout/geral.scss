@@ -14,7 +14,7 @@ body {
   
   .titulo-secao {
     text-decoration: underline;
-    font-size: 2em;
+    font-size: altera-tamanho (2);
     text-align: center;
   }
   
@@ -22,7 +22,7 @@ body {
   .planos,
   .blog,
   .contato {
-    padding: 3em 0 6em 0;
+    padding: altera-tamanho (3) 0 altera-tamanho (0.6) 0;
   }
   
   h2 {
